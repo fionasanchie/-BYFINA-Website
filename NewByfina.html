@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYFINA Flower Shop</title>
+    <link rel="stylesheet" href="Newbyfina.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>BYFINA</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#style">FLOWERS</a></li>
+                    <li><a href="#cart" class="cart-icon">🛒</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="./BYFINA' S IMG/BYFINA LOGO.png" alt="Heart-shaped tulip bouquet" />
+                </div>
+                <div class="hero-text">
+                    <h2>Flowers for special someone</h2>
+                    <p>Like gentle whispers of spring, our tulips bloom with promises of love and new beginnings. Each petal carries the warmth of affection, creating moments that last forever in the heart.</p>
+                    <button class="shop-btn">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">ABOUT</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./BYFINA' S IMG/ABOUT.png" alt="Colorful tulip bouquet" />
+                </div>
+                <div class="about-text">
+                    <p>At BYFINA, we specialize in creating exquisite heart-shaped tulip bouquets that capture the essence of love, joy, and new beginnings. Our carefully curated collection features tulips in various enchanting colors, each arrangement thoughtfully designed to convey your deepest emotions and create unforgettable moments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="style">
+        <div class="container">
+            <h2 class="section-title">FLOWERS</h2>
+
+            <!-- Navigation Tabs -->
+            <div class="nav-tabs">
+                <button class="nav-tab active" onclick="showSection('main')">ALL STYLES</button>
+                <button class="nav-tab" onclick="showSection('DATE')">DATES</button>
+                <button class="nav-tab" onclick="showSection('WEDDING')">WEDDINGS</button>
+                <button class="nav-tab" onclick="showSection('CASUAL')">CASUAL EVENTS</button>
+            </div>
+
+            <!-- Featured Preview -->
+                <div class="featured-preview">
+                    <div class="preview-card">
+                        <div class="preview-image">Romantic Date Bouquets</div>
+                        <div class="preview-title">Perfect for Special Dates</div>
+                    </div>
+                    <div class="preview-card">
+                        <div class="preview-image">Wedding Arrangements</div>
+                        <div class="preview-title">Elegant Wedding Flowers</div>
+                    </div>
+                    <div class="preview-card">
+                        <div class="preview-image">Casual Event Bouquets</div>
+                        <div class="preview-title">Beautiful Casual Arrangements</div>
+                    </div>
+                </div>
+
+            <!-- All Tulip Options -->
+             <div class="section-header">
+                <h2 class="section-title">ALL TULIPS COLLECTION</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/BABYPINK.png" alt="Baby Pink Tulips" />
+        
+                    <div class="borderline">
+                        <h3>Baby Pink Tulip</h3>
+                        <p class="price">₱300</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/WHITE.png" alt="White Tulips" />
+                    
+                    <div class="borderline">
+                        <h3>White Tulip</h3>
+                        <p class="price">₱370</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/PINK.png" alt="Pink Tulips" />
+                    
+                    <div class="borderline">
+                        <h3>Pink Tulip</h3>
+                        <p class="price">₱270</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/YELLOW.png" alt="Yellow Tulips" />
+                    <div class="borderline">
+                        <h3>Yellow Tulip</h3>
+                        <p class="price">₱320</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/ORANGE.png" alt="Orange Tulips" /> 
+                    <div class="borderline">
+                        <h3>Orange Tulip</h3>
+                        <p class="price">₱290</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/RED.png" alt="Red Tulips" />
+                    <div class="borderline">
+                        <h3>Red Tulip</h3>
+                        <p class="price">₱350</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/PURPLE.png" alt="Purple Tulips" /> 
+                    <div class="borderline">
+                        <h3>Purple Tulip</h3>
+                        <p class="price">₱380</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./BYFINA' S IMG/PEACH.png" alt="Peach Tulips" />
+                    <div class="borderline">
+                        <h3>Peach Tulip</h3>
+                        <p class="price">₱310</p>
+                        <button class="buy-btn">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <!-- Dates Section -->
+        <div id="dates-section" class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">TULIP FLOWERS FOR DATES</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">Pink & White Tulip Bouquet</div>
+                    <div class="product-info">
+                        <h3>Pink & White Tulip Bouquet</h3>
+                        <p class="price">$45.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Orange Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>Orange Bouquet Tulip</h3>
+                        <p class="price">$42.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">White Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>White Bouquet Tulip</h3>
+                        <p class="price">$39.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Red Wine Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>Red Wine Bouquet Tulip</h3>
+                        <p class="price">$48.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Puff Color Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>Puff Color Bouquet Tulip</h3>
+                        <p class="price">$44.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Purple Wash Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>Purple Wash Bouquet Tulip</h3>
+                        <p class="price">$46.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Blue Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>Blue Bouquet Tulip</h3>
+                        <p class="price">$47.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Baby Pink Bouquet Tulip</div>
+                    <div class="product-info">
+                        <h3>Baby Pink Bouquet Tulip</h3>
+                        <p class="price">$43.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weddings Section -->
+        <div id="weddings-section" class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">TULIP FLOWERS FOR WEDDING</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">Baby Pink Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Baby Pink Wedding Tulip</h3>
+                        <p class="price">$65.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">White Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>White Wedding Tulip</h3>
+                        <p class="price">$69.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Pink Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Pink Wedding Tulip</h3>
+                        <p class="price">$67.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Yellow Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Yellow Wedding Tulip</h3>
+                        <p class="price">$63.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Orange Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Orange Wedding Tulip</h3>
+                        <p class="price">$66.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Red Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Red Wedding Tulip</h3>
+                        <p class="price">$71.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Purple Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Purple Wedding Tulip</h3>
+                        <p class="price">$68.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Peach Wedding Tulip</div>
+                    <div class="product-info">
+                        <h3>Peach Wedding Tulip</h3>
+                        <p class="price">$65.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Casual Events Section -->
+        <div id="casual-section" class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">TULIP FLOWERS FOR CASUAL EVENT</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">Baby Pink Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Baby Pink Casual Tulip</h3>
+                        <p class="price">$32.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">White Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>White Casual Tulip</h3>
+                        <p class="price">$29.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Pink Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Pink Casual Tulip</h3>
+                        <p class="price">$31.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Yellow Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Yellow Casual Tulip</h3>
+                        <p class="price">$28.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Orange Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Orange Casual Tulip</h3>
+                        <p class="price">$30.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Red Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Red Casual Tulip</h3>
+                        <p class="price">$33.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Purple Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Purple Casual Tulip</h3>
+                        <p class="price">$32.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Peach Casual Tulip</div>
+                    <div class="product-info">
+                        <h3>Peach Casual Tulip</h3>
+                        <p class="price">$31.99</p>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showSection(sectionName) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section-content');
+            sections.forEach(section => section.classList.remove('active'));
+            
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.nav-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Show selected section
+            const targetSection = document.getElementById(sectionName + '-section');
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="./BYFINA' S IMG/BYFINA LOGO.png" alt="logo" />
+            </div>
+            <div class="info">
+                <h3>CONTACT</h3>
+                <p>0912-345-5678</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
